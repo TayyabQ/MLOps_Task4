@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY . /app
 
-RUN pip install
+RUN pip install -r requirements.txt
 
 CMD ["python", "model.py"]
